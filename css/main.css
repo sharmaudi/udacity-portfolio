@@ -1,0 +1,129 @@
+/*
+This makes sure no images overflow in the page.
+*/
+img {
+    max-width: 100%;
+}
+
+
+/*
+Header Logo sizing
+*/
+header img {
+    width: 75px;
+    height: 75px;
+    background: #555;
+}
+
+/*
+Logo positioning
+*/
+.logo {
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+
+/*
+Header font
+*/
+header h1 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+header h3 {
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 100;
+    text-align: right;
+}
+
+
+
+/*
+Horizontal rule
+*/
+hr {
+    color: #7d97ad;
+    border: none;
+    height: 5px;
+    width: 100%;
+    background-color: #7d97ad; /* Modern Browsers */
+}
+
+
+/*
+Footer margins
+*/
+footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/*
+Footer header
+*/
+footer header h3{
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #7d97ad;
+}
+
+
+/*
+Footer content
+*/
+footer section {
+    padding-top: 10px;
+}
+
+footer section div{
+    padding-top: 10px;
+}
+
+footer section h2{
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #2d3c49;
+}
+
+footer section h5{
+    text-align: center;
+    color: #2d3c49;
+    margin-top: 2px;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 100;
+}
+
+
+/*
+Media query to change the header text alignment to left for smaller viewports.
+*/
+@media (max-width: 768px) {
+    header h1 {
+        text-align: left;
+    }
+
+    header h3 {
+
+        text-align: left;
+    }
+}
