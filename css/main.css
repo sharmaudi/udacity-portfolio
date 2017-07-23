@@ -55,7 +55,7 @@ hr {
     border: none;
     height: 5px;
     width: 100%;
-    background-color: #7d97ad; /* Modern Browsers */
+    background: #7d97ad;
 }
 
 
@@ -71,7 +71,7 @@ footer {
 /*
 Footer header
 */
-footer header h3{
+footer .footer-heading h3{
     text-transform: uppercase;
     font-family: "Roboto Slab", sans-serif;
     margin-top: 20px;
@@ -90,8 +90,16 @@ footer section {
     padding-top: 10px;
 }
 
-footer section div{
+footer section article{
+    padding-right: 10px;
     padding-top: 10px;
+}
+
+footer section article .inner{
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+
 }
 
 footer section h2{
@@ -105,7 +113,7 @@ footer section h2{
     color: #2d3c49;
 }
 
-footer section h5{
+footer section p{
     text-align: center;
     color: #2d3c49;
     margin-top: 2px;

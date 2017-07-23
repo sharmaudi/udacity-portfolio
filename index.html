@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Udit Sharma - Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -24,37 +24,56 @@
     </div>
 
     <div class="row">
-        <hr/>
+        <div class="col-xs-12">
+            <hr>
+        </div>
+
     </div>
 </header>
 
 <article class="container">
-    <img src="img/far_away.jpg" alt="Udacity logo">
+    <section class="row">
+        <div class="col-xs-12">
+            <img src="img/far_away.jpg" alt="Main Image">
+        </div>
+    </section>
+
 </article>
 
 <footer class="container">
-    <header>
-        <h3>
-            Featured work
-        </h3>
-    </header>
-    <section class="row">
-        <div class="col-md-4, col-sm-4">
-            <img src="img/flower.jpg" alt="Project 1 Image">
-            <h2>Project 1</h2>
-            <h5><a href="#">http://www.project1.com</a></h5>
-        </div>
-        <div class="col-md-4, col-sm-4">
-            <img src="img/mail.jpg" alt="Project 2 Image">
-            <h2>Project 2</h2>
-            <h5><a href="#">http://www.project2.com</a></h5>
-        </div>
-        <div class="col-md-4, col-sm-4">
-            <img src="img/apples.jpg" alt="Project 3 Image">
-            <h2>Project 3</h2>
-            <h5><a href="#">http://www.project3.com</a></h5>
 
+    <div class="row footer-heading">
+        <div class="col-xs-12">
+            <h3>
+                Featured work
+            </h3>
         </div>
+    </div>
+
+    <section class="row">
+        <article class="col-md-4, col-sm-4">
+
+            <div class="inner">
+                <img src="img/flower.jpg" alt="Project 1 Image">
+                <h2>Project 1</h2>
+                <p><a href="#">http://www.project1.com</a></p>
+            </div>
+        </article>
+        <article class="col-md-4, col-sm-4">
+            <div class="inner">
+                <img src="img/apples.jpg" alt="Project 2 Image">
+                <h2>Project 2</h2>
+                <p><a href="#">http://www.project2.com</a></p>
+
+            </div>
+        </article>
+        <article class="col-md-4, col-sm-4">
+            <div class="inner">
+                <img src="img/mail.jpg" alt="Project 3 Image">
+                <h2>Project 3</h2>
+                <p><a href="#">http://www.project3.com</a></p>
+            </div>
+        </article>
     </section>
 </footer>
 </body>
